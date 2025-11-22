@@ -1,0 +1,28 @@
+/*
+Theme Name: FaisalWP
+Theme URI: https://amolood.com/faisalwp-theme
+Author: ABDALRAHMAN MOLOOD
+Author URI: https://molood.com
+Description: A one-page Arabic/English landing theme for Dr. Faisal Khudawardi built with Tailwind and Lucide icons.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: faisalwp
+Tags: one-column, custom-logo, rtl
+*/
+
+body.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+body.font-plex {
+    font-family: 'IBM Plex Sans Arabic', 'sans-serif';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+[dir="rtl"] .icon-flipped {
+    transform: scaleX(-1);
+}
