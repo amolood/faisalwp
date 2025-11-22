@@ -13,4 +13,9 @@ This WordPress theme mirrors the original static landing page for Dr. Faisal Khu
 
 - `functions.php` enqueues Tailwind & fonts, registers the taxonomies, and exposes localized strings via `faisalwpTranslations`.
 - `assets/js/site.js` toggles the text direction and language-specific datasets (hero copy, schedule cards, credentials, services) based on the saved option values.
-- Schedule and specialization terms now include meta for English translations, and the JS reads their `data-*` attributes to swap text when the language button (now part of the nav) is clicked.
+-
+## License
+
+Licensed under the MIT License. See the `LICENSE` file in the repository root.
+
+Author: ABDALRAHMAN MOLOOD — [https://amolood.com](https://amolood.com)
